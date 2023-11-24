@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pool:
+  name: Default
 
 steps:
 - task: Maven@3
